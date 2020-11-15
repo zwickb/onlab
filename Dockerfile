@@ -9,7 +9,6 @@
 # docker run  -it --rm networkstatic/iperf3 -c <SERVER_IP>
 #
 FROM debian:latest
-MAINTAINER Brent Salisbury <brent.salisbury@gmail.com>
 # install binary and remove cache
 RUN apt-get update \
     && apt-get install -y iperf3 \
